@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAB-2 CSS STYLING </title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+  <h1> My Portfolio</h1>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#skills">Skills</a>
+  <a href="#contact">Contact</a>
+  <a href="#projects">projects</a>
+</nav>
+
+<!-- Profile Image -->
+    <img 
+      src="https://cdn-icons-png.flaticon.com/512/706/706830.png" 
+      alt="Girl Profile Picture" 
+      class="profile-img">
+
+<section class="intro">
+  <h2>Introduction</h2>
+  <p>Hi! My name is kirti . I'm a B.Tech 1st-year student learning web development.</p>
+</section>
+
+<section id="about">
+  <h2>About Me</h2>
+  <p>I am passionate about coding and design.</p>
+</section>
+
+<hr>
+
+<section id="skills">
+  <h2>Technical Skills</h2>
+  <table>
+    <tr>
+      <th>Skill</th>
+      <th>Level</th>
+    </tr>
+    <tr>
+      <td>HTML</td>
+      <td>Beginner</td>
+    </tr>
+    <tr>
+      <td>CSS</td>
+      <td>Intermediate</td>
+    </tr>
+  </table>
+</section>
+
+<!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+
+    <form class="contact-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="4" placeholder="Write your message"></textarea>
+
+      <button type="submit" class="btn">Send</button>
+    </form>
+  </section>
+
+<hr>
+
+    <!-- Projects Section -->
+  <section id="projects">
+    <h2>My Projects</h2>
+
+    <div class="project-box">
+      <h3>1. Personal Portfolio Website</h3>
+      <p>A simple and responsive personal website using HTML and CSS.</p>
+      
+    </div>
+
+
+    <hr>
+    <footer>
+        <p>&copy; 2025 My Portfolio</p>
+</body>
+</html>
